@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('loop.svg');
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    font-family: Symbola, 'Times New Roman', serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+#input {
+    display: table;
+    margin: 75px auto 50px auto;
+    width: 700px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+    white-space: pre-wrap;
+}
+
+.rjesenja {
+    font-size: 35px;
+    text-align: center;
+}
+
+.credit {
+    position: fixed;
+    bottom: 0;
+    margin: 2px;
+    font-family: 'Noto Sans Math', sans-serif;
+    font-size: 13px;
+}
+
+#info {
+    text-align: center;
+    font-family: 'Noto Sans Math', sans-serif;
+    font-size: 25px;
+}
+
+#info-mobile {
+    display: none;
+}
+
+#error {
+    text-align: center;
+    font-family: 'Noto Sans Math', sans-serif;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    #input {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 80px;
+        margin-top: 20px;
+    }
+
+    #info {
+        display: none;
+    }
+
+    #info-mobile {
+        display: block;
+        text-align: center;
+        font-family: 'Noto Sans Math', sans-serif;
+        font-size: 22px;
+        margin: 0 20px 0 20px;
+    }
+}
