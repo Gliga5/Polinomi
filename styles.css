@@ -51,10 +51,6 @@ h1 {
     font-size: 25px;
 }
 
-#info-mobile {
-    display: none;
-}
-
 #error {
     text-align: center;
     font-family: 'Noto Sans Math', sans-serif;
@@ -72,11 +68,6 @@ h1 {
     }
 
     #info {
-        display: none;
-    }
-
-    #info-mobile {
-        display: block;
         text-align: center;
         font-family: 'Noto Sans Math', sans-serif;
         font-size: 22px;
